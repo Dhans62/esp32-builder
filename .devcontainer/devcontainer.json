@@ -1,0 +1,8 @@
+{
+    "name": "ESP32 Builder",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    },
+    "postCreateCommand": "bash .devcontainer/setup.sh"
+}
